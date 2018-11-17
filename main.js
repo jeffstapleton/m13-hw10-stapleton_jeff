@@ -11,5 +11,7 @@ button.addEventListener('click', slideToggle);
 */
 //jQuery functionality will go here. Make sure to iclude the document.ready function.
 $(document).ready(function(){
-  
+  $('button').click(function (){
+    $('section').slideToggle();
+  });
 });
