@@ -4,8 +4,9 @@ var section = document.getElementsByTagName('section');
 var button = document.getElementsByTagName('button');
 
 function slideToggle() {
-  section.classList.toggle('hide')
+  section.classList.toggle('hide');
 }
 
+button.addEventListener('click', slideToggle);
 
 //jQuery functionality will go here. Make sure to iclude the document.ready function.
